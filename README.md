@@ -7,7 +7,7 @@ Usage:
   python Main.py
 ```
 
-To write own plugins for the server follow this scheme:
+To write own plugins for the server follow this scheme and place it in the plugins folder:
 
 ```
   class Plugin(object):
