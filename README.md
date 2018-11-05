@@ -26,7 +26,7 @@ To write own plugins for the server follow this scheme and place it in the plugi
 ```
 
 The name have to be the same as in the homebridge accessory attribute "plugin" and it has to be unique!
-Whenever the server recieves a udp-message directed to the plugin, the execute methode is triggered with a variable name and its value passed.
+Whenever the server receives a udp-message directed to the plugin, the execute methode is triggered with a variable name and its value passed.
 If there is something (for example a serial connection) that has to be closed, integrate it into the close methode.
 
 The following plugin passes "00" followed by the rgb-values in hex from a udp-accessory to an arduino via serial:
